@@ -1,0 +1,174 @@
+body{
+margin:0;
+background:#121212;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+text-align:center;
+}
+
+.home{
+padding-top:60px;
+}
+
+.title{
+font-size:42px;
+color:#D4AF37;
+margin-bottom:40px;
+}
+
+.menu{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:20px;
+}
+
+.menu-btn{
+width:260px;
+padding:18px;
+font-size:18px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+color:white;
+background:linear-gradient(145deg,#D4AF37,#8C6239);
+}
+
+.menu-btn:hover{
+transform:scale(1.05);
+}
+
+.page{
+padding-top:60px;
+}
+
+.back{
+margin-top:30px;
+padding:10px 20px;
+border:none;
+background:#8C6239;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+.characters{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+}
+
+.char{
+font-size:40px;
+background:#8C6239;
+padding:20px;
+border-radius:10px;
+}
+
+.map-page{
+text-align:center;
+}
+
+.festival-map{
+position:relative;
+width:320px;
+height:500px;
+background:#1c1c1c;
+border:3px solid #D4AF37;
+margin:auto;
+margin-top:20px;
+border-radius:10px;
+}
+
+.zone{
+position:absolute;
+padding:10px;
+background:linear-gradient(145deg,#D4AF37,#8C6239);
+border-radius:8px;
+font-size:14px;
+}
+
+.food{
+top:40px;
+left:20px;
+}
+
+.beer{
+top:40px;
+right:20px;
+}
+
+.party{
+top:180px;
+left:110px;
+}
+
+.stage{
+bottom:120px;
+left:110px;
+}
+
+.toilet{
+bottom:40px;
+left:30px;
+}
+
+.exit{
+bottom:40px;
+right:30px;
+}
+
+.user-location{
+position:absolute;
+font-size:24px;
+transform:translate(-50%,-50%);
+}
+/* 
+.map-page {
+  text-align: center;
+} */
+
+/* .festival-map {
+  position: relative;
+  width: 90%;
+  height: 70vh;
+  margin: auto;
+  border: 3px solid #333;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #2e7d32, #66bb6a);
+  overflow: hidden;
+} */
+
+/* Zones */
+/* .zone {
+  position: absolute;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+} */
+
+/* Different zone colors */
+/* .stage { background: #d32f2f; }
+.beer { background: #fbc02d; color: black; }
+.food { background: #ff7043; }
+.party { background: #7b1fa2; }
+.toilet { background: #0288d1; }
+.exit { background: #424242; } */
+
+/* User dot */
+/* .user-location {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  animation: pulse 1s infinite;
+} */
+
+/* @keyframes pulse {
+  0% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.3); }
+  100% { transform: translate(-50%, -50%) scale(1); }
+} */
