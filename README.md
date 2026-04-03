@@ -49,8 +49,9 @@ rm -rf dist && npm run build
 # Deploy to Firebase
 firebase deploy --only hosting
 ```
+---
 
-🛰️ Roadmap (Coming Soon)
+## 🛰️ Roadmap (Coming Soon)
 Global Leaderboards: Real-time scoring synchronized across all festival attendees.
 
 Character Selection: Choose your "Cyber-Avatar" to represent your score on the map.
