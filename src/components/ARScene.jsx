@@ -1,18 +1,18 @@
 import { Canvas } from "@react-three/fiber"
 import BeerPong from "./BeerPong"
 
-export default function ARScene(){
+export default function ARScene() {
 
-return(
+    return (
 
-<Canvas camera={{ position:[0,0,5] }}>
+        <Canvas camera={{ position: [0, 0, 5] }}>
 
-<ambientLight intensity={1} />
+            <ambientLight intensity={1} />
 
-<BeerPong/>
+            <BeerPong />
 
-</Canvas>
+        </Canvas>
 
-)
+    )
 
 }

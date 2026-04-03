@@ -1,19 +1,19 @@
-export default function GameSelect({setScreen}){
+export default function GameSelect({ setScreen }) {
 
-return(
+    return (
 
-<div className="page">
+        <div className="page">
 
-<h1>Choose Game</h1>
+            <h1>Choose Game</h1>
 
-<button className="menu-btn" onClick={()=>setScreen("beerpong")}>AR BEER PONG</button>
+            <button className="menu-btn" onClick={() => setScreen("beerpong")}>AR BEER PONG</button>
 
-<button className="menu-btn" onClick={()=>setScreen("treasure")}>AR TREASURE HUNT</button>
+            <button className="menu-btn" onClick={() => setScreen("treasure")}>AR TREASURE HUNT</button>
 
-<button className="back" onClick={()=>setScreen("home")}>BACK</button>
+            <button className="back" onClick={() => setScreen("home")}>BACK</button>
 
-</div>
+        </div>
 
-)
+    )
 
 }

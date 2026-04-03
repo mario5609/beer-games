@@ -1,16 +1,53 @@
-# React + Vite
+🍺 Festival AR: The Neo-Tokyo Experience
+A high-performance, mobile-first WebXR application built for the modern beer festival. This platform blends industrial cyberpunk aesthetics with interactive Augmented Reality gaming, real-time mapping, and social competition.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Features
+🕹️ AR Game Suite
+AR Beer Pong: A physics-based simulation featuring custom-textured "V-Cups" and a horizontal power-gauge throwing mechanic.
 
-Currently, two official plugins are available:
+Treasure Hunt: A spatial awareness game where players track and "collect" rare 3D items spawned in their immediate physical environment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Rarity System: Common, Rare, Epic, and Legendary items with scaling point values.
 
-## React Compiler
+🗺️ Cyber-Map
+A localized navigation tool designed to help attendees find key festival landmarks and points of interest with a themed UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
+Core: React 18 + Vite (Optimized for HMR and lightning-fast mobile builds).
 
-## Expanding the ESLint configuration
+3D Engine: Three.js for rendering complex geometries and materials.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+AR Framework: WebXR Device API (Native browser integration, no app install required).
+
+Deployment: Firebase Hosting with global CDN for low-latency festival access.
+
+📱 Mobile Requirements
+To enjoy the AR features, users must use a WebXR-compatible browser:
+
+Android: Google Chrome or Samsung Internet (Recommended).
+
+iOS: WebXR is currently experimental on iOS; we recommend using the WebXR Viewer app or ensuring "WebXR" flags are enabled in Safari settings.
+
+🛠️ Development & Deployment
+Local Setup
+Bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+Production Build & Deploy
+To prevent "White Screen" hardware hangs on mobile, always use the clean build command:
+
+Bash
+# Wipe old build and generate fresh assets
+rm -rf dist && npm run build
+
+# Deploy to Firebase
+firebase deploy --only hosting
+🛰️ Roadmap (Coming Soon)
+Global Leaderboards: Real-time scoring synchronized across all festival attendees.
+
+Character Selection: Choose your "Cyber-Avatar" to represent your score on the map.
+
+Spatial Computing Updates: Improved surface detection for Beer Pong table placement.

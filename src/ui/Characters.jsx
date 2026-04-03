@@ -1,24 +1,24 @@
-export default function Characters({setScreen}){
+export default function Characters({ setScreen }) {
 
-return(
+    return (
 
-<div className="page">
+        <div className="page">
 
-<h1>Select Character</h1>
+            <h1>Select Character</h1>
 
-<div className="characters">
+            <div className="characters">
 
-<div className="char">🍺</div>
-<div className="char">👑</div>
-<div className="char">🛢</div>
-<div className="char">🍻</div>
+                <div className="char">🍺</div>
+                <div className="char">👑</div>
+                <div className="char">🛢</div>
+                <div className="char">🍻</div>
 
-</div>
+            </div>
 
-<button className="back" onClick={()=>setScreen("home")}>BACK</button>
+            <button className="back" onClick={() => setScreen("home")}>BACK</button>
 
-</div>
+        </div>
 
-)
+    )
 
 }

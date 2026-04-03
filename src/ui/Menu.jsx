@@ -1,11 +1,11 @@
-export default function Menu(){
+export default function Menu() {
 
-  return(
+  return (
 
     <div style={{
-      padding:"10px",
-      background:"#222",
-      color:"white"
+      padding: "10px",
+      background: "#222",
+      color: "white"
     }}>
 
       <h2>Beer Festival AR</h2>

@@ -1,21 +1,21 @@
 import ARBeerGame from "../components/ARBeerGame"
 
-export default function BeerPong({setScreen}){
+export default function BeerPong({ setScreen }) {
 
-return(
+    return (
 
-<div className="page">
+        <div className="page">
 
-<h1>AR Beer Pong</h1>
+            <h1>AR Beer Pong</h1>
 
-<ARBeerGame/>
+            <ARBeerGame />
 
-<button className="back" onClick={()=>setScreen("games")}>
-BACK
-</button>
+            <button className="back" onClick={() => setScreen("games")}>
+                BACK
+            </button>
 
-</div>
+        </div>
 
-)
+    )
 
 }

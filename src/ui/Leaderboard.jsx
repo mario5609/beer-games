@@ -1,17 +1,17 @@
-export default function Leaderboard({setScreen}){
+export default function Leaderboard({ setScreen }) {
 
-return(
+    return (
 
-<div className="page">
+        <div className="page">
 
-<h1>Leaderboard</h1>
+            <h1>Leaderboard</h1>
 
-<p>Top players will appear here.</p>
+            <p>Top players will appear here.</p>
 
-<button className="back" onClick={()=>setScreen("home")}>BACK</button>
+            <button className="back" onClick={() => setScreen("home")}>BACK</button>
 
-</div>
+        </div>
 
-)
+    )
 
 }

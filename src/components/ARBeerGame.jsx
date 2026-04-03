@@ -122,15 +122,15 @@ export default function ARBeerGame() {
     // CUPS
     const cups = []
     const cupGeo = new THREE.CylinderGeometry(
-      0.05,   // top wider
-      0.035,  // bottom narrower
+      0.05,
+      0.035,
       0.12,
       32,
       1,
       true
     )
     const cupMat = new THREE.MeshStandardMaterial({
-      color: 0xcc0000 // nice beer pong red
+      color: 0xcc0000
     })
     const cupRowCount = 3
     const cupSpacingX = 0.15
@@ -141,7 +141,7 @@ export default function ARBeerGame() {
       const cup = new THREE.Mesh(cupGeo, cupMat)
 
 
-      // INNER CUP (keep this from before)
+      // INNER CUP 
       const innerGeo = new THREE.CylinderGeometry(0.045, 0.03, 0.115, 32, 1, true)
       const innerMat = new THREE.MeshStandardMaterial({
         color: 0xffffff,
